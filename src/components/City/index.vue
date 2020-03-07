@@ -133,6 +133,7 @@ export default {
             window.localStorage.setItem('nowNm' , nm);
             window.localStorage.setItem('nowId' , id);
             this.$router.push('/movie/playingnow');
+            
         }
     }
 }
